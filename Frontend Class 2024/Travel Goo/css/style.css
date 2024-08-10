@@ -128,6 +128,7 @@ i{
 .container-2-2{
     background-color: rgba(0, 88, 83, 0.05);
     padding-bottom: 200px;
+    padding-top: 60px;
 }
 .container-2-2 > h2{
     margin-bottom: 30px;
