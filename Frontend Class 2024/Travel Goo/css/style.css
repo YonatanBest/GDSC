@@ -45,6 +45,7 @@ nav img{
     font-family: "Open Sans", sans-serif;
     font-weight: 1000;
     font-style: normal;
+    margin-top: 450px;
 }
 .main button{
     background-color: rgba(0, 166, 81, 1);
@@ -53,7 +54,7 @@ nav img{
     width: 140px;
     margin-top: 30px;
     border-radius: 10px;
-    margin-bottom: 100px;
+    margin-bottom: 600px;
     font-family: "Open Sans", sans-serif;
     font-weight: 600;
     color: white;
@@ -156,4 +157,45 @@ p{
 }
 .best > p{
     font-size: 20px;
+}
+.container-1 {
+    background: url("../images/hero.png");
+    background-repeat: no-repeat;  
+    background-size: cover;
+    background-position: center;
+    color: white;
+    position: relative;
+}
+
+.container-2 {
+    background: linear-gradient(to bottom, transparent, rgba(255,255,255,0.5)), 
+                url("../images/world\ map\ 1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: -50px; 
+    padding-top: 50px; 
+    position: relative;
+    z-index: 1;
+}
+
+.container-1::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 150px; 
+    background: linear-gradient(to bottom, transparent, white);
+    z-index: 2;
+}
+
+.container-2::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100px; 
+    background: linear-gradient(to top, transparent, white);
+    z-index: 2;
 }
