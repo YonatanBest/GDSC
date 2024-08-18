@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Basketball Counter</title>
+    <link rel="stylesheet" href="../css/styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="column">
+        <h2>Home</h2>
+        <div class="counter" id="home-counter">0</div>
+        <div class="buttons">
+          <button onclick="increment('home', 1)">+1</button>
+          <button onclick="increment('home', 2)">+2</button>
+          <button onclick="increment('home', 3)">+3</button>
+        </div>
+      </div>
+      <div class="column">
+        <h2>Guest</h2>
+        <div class="counter" id="guest-counter">0</div>
+        <div class="buttons">
+          <button onclick="increment('guest', 1)">+1</button>
+          <button onclick="increment('guest', 2)">+2</button>
+          <button onclick="increment('guest', 3)">+3</button>
+        </div>
+      </div>
+    </div>
+    <script src="../js/script.js"></script>
+  </body>
+</html>

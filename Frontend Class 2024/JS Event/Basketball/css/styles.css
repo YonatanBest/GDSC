@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #e0e0e0;
+}
+
+.container {
+    display: flex;
+    background-color: rgb(27, 36, 74);
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 500px;
+}
+
+.column {
+    color: white;
+    margin: 0 20px;
+    text-align: center;
+}
+
+.counter {
+    background-color: black;
+    color: Red;
+    padding: 10px;
+    margin: 10px 0;
+    font-size: 24px;
+    border-radius: 5px;
+}
+
+.buttons button {
+    color: white;
+    background-color: rgb(27, 36, 74);
+    padding: 10px 15px;
+    margin: 5px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
