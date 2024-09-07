@@ -1,6 +1,5 @@
-// src/components/Weather.js
 import React, { useState } from 'react';
-import './Weather.css'; // Optional: create a CSS file for styles
+import './Weather.css';
 
 const Weather = () => {
   const [location, setLocation] = useState('');
